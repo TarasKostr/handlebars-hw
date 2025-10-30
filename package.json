@@ -1,0 +1,30 @@
+{
+  "name": "handlebars-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /parceltoo/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TarasKostr/handlebars-hw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TarasKostr/handlebars-hw/issues"
+  },
+  "homepage": "https://github.com/TarasKostr/handlebars-hw#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
+}
